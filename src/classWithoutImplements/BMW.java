@@ -94,7 +94,8 @@ abstract class Car  {//implements Serializable  {
     public static void main(String[] args) {
     File f = new File("C:\\Pr\\3_Third_Projects\\src\\classWithoutImplements\\file1.txt");
 
-    BMW c = new BMW(1000, 5000, "x6", new Engine(1500, "BMW")); // т.к. поле Engine в классе BMW имеет модификатор transient, значение null;
+    BMW c = new BMW(1000, 5000, "x6", new Engine(1500, "BMW")); // т.к. поле
+        // Engine в классе BMW имеет модификатор transient, значение null;
 
         try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(f));
              ObjectInputStream ois = new ObjectInputStream(new FileInputStream(f))){
