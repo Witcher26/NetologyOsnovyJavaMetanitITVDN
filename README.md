@@ -21,3 +21,12 @@
 - Задача 12 - генерация своих исключений  
 - Задача 12.1 - Проверка доступа к ресурсу (ненерация различных исключений, валидация по возрасту, логину и паролю, User[] users = getUsers())
 - Задача 12.2 - Валидация прочитанных событий (if (event.getTitle() != null && event.getReleaseYear() != 0 && event.getAge() != 0),   
+- Задача 13.1 - ***Коллекции List***. Записная книга (list.add(scanner.nextLine())), if(userValue==1))
+- Задача 14.1 - **Коллекции Queue**. Лифт(Queue<Integer> queue = new ArrayDeque<>(),  } catch (InputMismatchException ex),  while (!queue.isEmpty()), 
+- Задача 14.2 - Время движения лифта (currentFloor = queue.poll(), totalSeconds += Math.abs(previousFloor - currentFloor) * waitMoveInSeconds,  throw new InputMismatchException())
+  - Задача 14.3  Обратная польская запись (Deque<String> queue = new ArrayDeque<>(), **  String[] line = userValue.split(" "),  String s = queue.pollLast())
+  - Задача 15.1 **Коллекции HashSet и HashMap** Телефонный справочник (public int hashCode() {
+        return Objects.hash(phoneNumber, name, lastname), private Map<String, List<Contact>> groups = new HashMap<>(), **groups.get(nameGroup).add(contact)**, List<Contact> tmpContact = entry.getValue(), **if (groups.get(nameGroup).contains(contact))**)
+  - Задача 15.2 Список студентов (  System.out.println(storage.isEmpty() ? messageStart : messageNext),  if (userValue.equals("end")),String message = addStudent(studentTmp) ? "Студент добавлен" : "Такой студент уже есть",  public int hashCode() {
+        return Objects.hash(studentId), public String toString() {
+        return name + " , " + group + " , " + studentId )
