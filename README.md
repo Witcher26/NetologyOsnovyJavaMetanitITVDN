@@ -2,13 +2,13 @@
 Задачи блока основ Java, лекции, Метанит и ITVDN
 ***
 Основы джава:
-3 ***Условные операторы и циклы***
-- Задача 3.1 - высокосный год (тернарный оператор, цикл while(true),Scanner)
-- Задача 3.2 - укадываем високостность (ттернарный оператор, scanner.nextInt())
+- 3 ***Условные операторы и циклы***
+- Задача 3.1 - високосный год (тернарный оператор, цикл while(true),Scanner)
+- Задача 3.2 - угадываем високостность (тернарный оператор, scanner.nextInt())
 - 4 ***Типы данных в Java:примитивы***
-- Задача 4 - из квиза. (String EndPhrase = "закончу в", String regex = "\\d{2}\\:\\d{2}")
+- Задача 4 - из квиза (String EndPhrase = "закончу в", String regex = "\\d{2}\\:\\d{2}")
 - Задача 4.1 - ИПэшник (if(userNumber.equalsIgnoreCase("end")) 
-- Задача 4.2 - Сравнить (double, округлить,  Отбросить дробную часть (тернар.оператор, while(true), switch - case,Float.parseFloat,  if (Math.abs(userNumber1 - userNumber2) <= 0.00001) { //если погрешность не больше(или равна) 1=й-миллионой,то считаем числа равными, Double.parseDouble(scanner.nextLine()),
+- Задача 4.2 - Сравнение double - Сравнить, округлить, отбросить дробную часть (тернар.оператор, while(true), switch - case,Float.parseFloat,  if (Math.abs(userNumber1 - userNumber2) <= 0.00001) { //если погрешность не больше(или равна) 1=й-миллионой,то считаем числа равными, Double.parseDouble(scanner.nextLine()),
 - 5 ***Типы данных в Java: объекты*** квиз https://netology.ru/profile/program/jdpdc-java-3/lessons/119467/lesson_items/608815
 - 6 ***Структура класса***
 - Задача 6.1 - Книги и авторы
