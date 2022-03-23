@@ -69,6 +69,6 @@ return Objects.hash(studentId), public String toString() {return name + " , " + 
  Metanit
  - record
  ***
- -вывод процесса прогресса
- -создание своей аннотации
+- вывод процесса прогресса
+- создание своей аннотации
  
