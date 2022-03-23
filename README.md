@@ -44,3 +44,31 @@ return Objects.hash(studentId), public String toString() {return name + " , " + 
 - Задача 16.1 - Пропущенные вызовы (Map<LocalDateTime, String> missedCalls = new TreeMap<>(), return Long.toString((long) ((Math.random() * (MAX - MiN)) + MiN)))
 - задача 16.2 - Система подбора кандидатов ( public int compareTo(Candidate altCandidate) {int result = altCandidate.relevance.compareTo(relevance);if (result == 0) {result = altCandidate.ratio.compareTo(ratio);if (result == 0) {return this.relevance;}}return result)
   ***
+Лекции Netology
+ - HashSet и HashMap
+ - Радиус и площадь
+ - Пузырьковая сортировка
+ - Игра крестики-нолики
+ - Абстракции
+ - Квиз - Орки против Людей
+ - TreeMap
+ - Дженерики
+ - Исключения
+   - Несоответствие ввода
+   - Выброс своих исключений
+   - Исключения при чтении файла
+   - Отложенная обработка
+ - Коллекции List
+ - Ссылки на методы
+ 
+ ***
+ ITVDV
+ - клонирование
+ - сериализация
+ ***
+ Metanit
+ - record
+ ***
+ -вывод процесса прогресса
+ - создание своей аннотации
+ 
