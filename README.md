@@ -70,5 +70,5 @@ return Objects.hash(studentId), public String toString() {return name + " , " + 
  - record
  ***
  -вывод процесса прогресса
- - создание своей аннотации
+ -создание своей аннотации
  
