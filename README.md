@@ -30,3 +30,14 @@
   - Задача 15.2 Список студентов (  System.out.println(storage.isEmpty() ? messageStart : messageNext),  if (userValue.equals("end")),String message = addStudent(studentTmp) ? "Студент добавлен" : "Такой студент уже есть",  public int hashCode() {
         return Objects.hash(studentId), public String toString() {
         return name + " , " + group + " , " + studentId )
+ - Задача 16 **Коллекции TreeMap и TreeSet**
+  - Задача 16.1 Пропущенные вызовы (Map<LocalDateTime, String> missedCalls = new TreeMap<>(), return Long.toString((long) ((Math.random() * (MAX - MiN)) + MiN)))
+  - задача 16.2 Система подбора кандидатов ( public int compareTo(Candidate altCandidate) {
+        int result = altCandidate.relevance.compareTo(relevance);
+        if (result == 0) {
+            result = altCandidate.ratio.compareTo(ratio);
+            if (result == 0) {
+                return this.relevance;
+            }
+        }
+        return result)
